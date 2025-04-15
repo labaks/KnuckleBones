@@ -1,0 +1,46 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2e2e2e;
+}
+
+.App {
+  width: 1000px;
+  background: #5cac37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+button {
+  border: none;
+  background: #2e2e2e;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+main button {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 5px;
+}
+main {
+  display: flex;
+}
+
+main div {
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
